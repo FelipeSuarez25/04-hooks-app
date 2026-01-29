@@ -3,7 +3,8 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 // import { TrafficLightWithEffect } from "./02-useEffect/TrafficLightWithEffect";
 // import { TrafficLightWithHook } from "./02-useEffect/TrafficLightWithHook";
-import { PokemonPage } from "./03-examples/PokemoPage";
+// import { PokemonPage } from "./03-examples/PokemoPage";
+import { FocusScreen } from "./04-useRef/FocusScreen";
 // import { TrafficLight } from "./01-useState/TrafficLight";
 
 createRoot(document.getElementById("root")!).render(
@@ -12,6 +13,7 @@ createRoot(document.getElementById("root")!).render(
     {/* <TrafficLight /> */}
     {/* <TrafficLightWithEffect /> */}
     {/* <TrafficLightWithHook /> */}
-    <PokemonPage />
+    {/* <PokemonPage /> */}
+    <FocusScreen />
   </StrictMode>,
 );
