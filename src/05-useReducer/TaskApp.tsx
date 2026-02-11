@@ -27,6 +27,7 @@ export const TasksApp = () => {
     }
 
     setTodos([...todos, newTodo]);
+    setInputValue('');
 
   };
 
